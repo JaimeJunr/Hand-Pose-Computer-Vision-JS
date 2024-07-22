@@ -1,0 +1,27 @@
+{
+  "name": "webcam",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/fingerpose": "^0.1.1",
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "sass": "^1.77.8",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@tensorflow-models/hand-pose-detection": "^2.0.1",
+    "@tensorflow-models/handpose": "^0.1.0",
+    "@tensorflow/tfjs": "^4.20.0",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  }
+}
